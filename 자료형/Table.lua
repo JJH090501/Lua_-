@@ -10,5 +10,3 @@ print (arrayTable[1])  -- 출력: 10, 루아의 인덱스는 1부터 시작
 print (dictTable.name)  -- 출력: Bob, 점 표기법 
 print (dictTable["age"])  -- 출력: 25, 대괄호 표기법
 
-
-\
