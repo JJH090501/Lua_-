@@ -24,3 +24,7 @@ local tempB = 2
 -- tempA와 tempB의 값을 서로 바꿉니다.
 tempA, tempB = tempB, tempA
 print(tempA, tempB)  -- 출력: 2 1
+
+
+-- 공백을 기준으로 여러 값을 입력 받을 땐
+local test_input = io.read():match("(%d+)%s+(%d+)")
